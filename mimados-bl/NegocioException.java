@@ -1,4 +1,4 @@
-package pe.pucp.progra3.mimados.bl.exception;
+package pe.pucp.progra3.mimados-bl.exception;
 
 public class NegocioException extends Exception {
 
