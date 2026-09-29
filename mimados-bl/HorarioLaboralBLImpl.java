@@ -1,14 +1,14 @@
 package pe.pucp.progra3.mimados.bl.imp;
 
-import pe.pucp.progra3.mimados.DBManager.TransactionContext;
-import pe.pucp.progra3.mimados.business.HorarioLaboralBL;
-import pe.pucp.progra3.mimados.business.exception.NegocioException;
-import pe.pucp.progra3.mimados.dao.EmpleadoDAO;
-import pe.pucp.progra3.mimados.dao.HorarioLaboralDAO;
-import pe.pucp.progra3.mimados.dao.imp.EmpleadoDAOimp;
-import pe.pucp.progra3.mimados.dao.imp.HorarioLaboralimp;
-import pe.pucp.progra3.mimados.model.Empleado;
-import pe.pucp.progra3.mimados.model.HorarioLaboral;
+import pe.pucp.progra3.mimados-db-manager.TransactionContext;
+import pe.pucp.progra3.mimados-bl.HorarioLaboralBL;
+import pe.pucp.progra3.mimados-bl.exception.NegocioException;
+import pe.pucp.progra3.mimados-dao.EmpleadoDAO;
+import pe.pucp.progra3.mimados-dao.HorarioLaboralDAO;
+import pe.pucp.progra3.mimados-dao.imp.EmpleadoDAOimp;
+import pe.pucp.progra3.mimados-dao.imp.HorarioLaboralimp;
+import pe.pucp.progra3.mimados-model.Empleado;
+import pe.pucp.progra3.mimados-model.HorarioLaboral;
 
 import java.sql.SQLException;
 import java.util.List;
